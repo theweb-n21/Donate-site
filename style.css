@@ -6,31 +6,46 @@
     border: none;
     font-family: 'Inter', sans-serif;
 }
+.paragraph-style{
+    line-height: 25px;
+    font-size: 18px;
+    
+}
+.main-div{
+    width: 100%;
+    margin: 50px 0px;
+}
+.anchor-text-style{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
 
 .heading-style {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 .button-style {
-    /* margin-top: 15px; */
     padding: 16px 12px 16px 12px;
     background-color: #FF5959;
     color: #FFFFFF;
+    font-weight: 600;
     border-radius: 5px;
 
 }
 .tex-div{
     text-align: center;
+    line-height: 15px;
     width: 70%;
 
 }
 
-/* ======================help section============ */
-.help {
+/* ======================banner section============ */
+.banner{
     width: 100%;
     height: 500px;
-    width: 100%;
     background-repeat: no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.438)), url(./images/c15c89adc7bdf6de47872b9b6aa3e7eb.jpeg);
     background-position: center;
@@ -40,33 +55,33 @@
     align-items: center;
 }
 
-.help-innerDiv {
+.banner-innerDiv {
     width: 70%;
     color: #FFFFFF;
     text-align: center;
 
 }
 
-.help-innerDiv h1 {
+.banner-innerDiv h1 {
     font-weight: 700;
     font-size: 50px;
     line-height: 79px;
 
 }
 
-.help-innerDiv p {
-    font-family: 'Poppins';
+.banner-innerDiv p {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 15px;
 }
+
 
 /* =================donate section ========== */
 .donate {
     width: 100%;
     height: 500px;
-    padding-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,15 +89,10 @@
     text-align: center;
 }
 
-.donate p {
-    width: 70%;
-    color: #707070;
-    line-height: 28px;
 
-}
 
 .amount {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly
@@ -98,9 +108,16 @@
 }
 
 .highlight {
-    /* display: block; */
     border: 1px solid #FF5959;
     background-color: #FFEEEE;
+}
+form {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 input[ type="text"] {
@@ -113,27 +130,13 @@ input[ type="text"] {
 
 /* ===============donate plan section======= */
 .donate-plan {
-    width: 100%;
-    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
-
-.donate-tex-div {
-    text-align: center;
-    width: 70%;
-
-}
-
-.donate-tex-div h1 {
-    margin: 15px;
-}
-
-.donate-tex-div p {
-    margin: 15px;
-}
+ 
 
 .card-div {
     display: flex;
@@ -141,6 +144,7 @@ input[ type="text"] {
     justify-content: space-between;
     align-items: center;
     width: 80%;
+    margin-top: 50px;
 }
 
 .card-div div {
@@ -168,12 +172,6 @@ input[ type="text"] {
 }
 
 /* =========depend section ========== */
-.depend {
-    width: 100%;
-    height: 500px;
-    margin-top: 25px;
-
-}
 
 .inner-div {
     width: 100%;
@@ -185,7 +183,7 @@ input[ type="text"] {
 
 .inner-div-text {
     width: 393px;
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -194,28 +192,17 @@ input[ type="text"] {
 }
 
 .inner-div img {
-    width: 356px;
-    height: 377px;
+    width: 393px;
+    height: 300px;
     border-radius: 5px;
     border: 1px solid grey;
+    object-fit: cover;
 
 }
 
-/* ==============need section========= */
-.need {
-    width: 100%;
-    height: 500px;
-    margin-top: 25px;
-}
 /* ==============update section============  */
-.update{
-    width: 100%;
-    height: 500px;
-   
-}
 .update-inner-div{
     width: 80%;
-    height: 500px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -230,6 +217,7 @@ input[ type="text"] {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
  input[type="email"]{
     padding: 16px 12px 16px 12px;
@@ -241,6 +229,7 @@ input[ type="text"] {
     width: 100%;
     height: 250px;
     background-color: #0B0D17;
+    margin-top: 100px;
  }
  .footer-inner-div{
     width: 60%;
